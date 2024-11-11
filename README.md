@@ -13,7 +13,7 @@ options:
   -H HOST, --host HOST  The host to ping
   -D, --display         Display the results in a graph
   -fp FILEPATH, --filepath FILEPATH
-                        The file path to the output file
+                        The path to the file you want to display
   -c COUNT, --count COUNT
                         The number of pings to send
   -i INTERVAL, --interval INTERVAL
