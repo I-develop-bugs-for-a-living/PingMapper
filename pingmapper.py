@@ -45,7 +45,7 @@ if args.display:
     plt.grid(True)
     plt.xticks(rotation=25)
     plt.gca().xaxis.set_major_locator(plt.MaxNLocator(5))
-    plt.text(0.5, 0.95, 'any-company.de', transform=plt.gca().transAxes, ha='center')
+    plt.text(0.5, 0.95, 'any-software.de', transform=plt.gca().transAxes, ha='center')
     plt.show()
     
     
