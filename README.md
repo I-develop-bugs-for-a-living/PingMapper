@@ -13,7 +13,8 @@ options:
   -H HOST, --host HOST  The host to ping
   -D, --display         Display the results in a graph
   -fp FILEPATH, --filepath FILEPATH
-                        The path to the file you want to display
+                        The path to the folder with the files you want to display, default is maps\
+                        Tool will display all files in folder and you will be able to choose
   -c COUNT, --count COUNT
                         The number of pings to send
   -i INTERVAL, --interval INTERVAL
