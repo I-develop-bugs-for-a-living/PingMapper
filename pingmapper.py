@@ -15,7 +15,8 @@ group = parser.add_mutually_exclusive_group(required=True)
 
 group.add_argument('-H', '--host', help='The host to ping')
 group.add_argument('-D', '--display', help='Display the results in a graph', action='store_true')
-parser.add_argument('-fp', '--filepath', help='The file path to the output file', default='maps/')
+parser.add_argument('-fp', '--filepath', help='The path to the folder with the files you want to display, default is maps\
+                        Tool will display all files in folder and you will be able to choose', default='maps/')
 parser.add_argument('-c', '--count', help='The number of pings to send', default=5)
 parser.add_argument('-i', '--interval', help='The interval between pings in minutes')
 parser.add_argument('-d', '--duration', help='The duration of the mapping in datetime format')
